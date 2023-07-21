@@ -1,0 +1,66 @@
+body
+{
+    margin: 0;
+    background: linear-gradient(to right bottom , rgb(255, 74, 101) , rgb(179, 0, 255));
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container
+{
+    background-color: rgb(255, 255, 255);
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px 2px rgb(255, 0, 0);
+}
+
+h1
+{
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.input
+{
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgb(247, 251, 254);
+    margin: 10px;
+}
+
+.btn
+{
+    background: linear-gradient(to right , red , purple);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 10px;
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.info-text
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h6
+{
+    font-weight: bold;
+    text-align: center;
+}
+
+.akashnegi
+{
+    text-decoration: underline;
+}
